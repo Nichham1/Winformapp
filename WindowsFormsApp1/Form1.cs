@@ -16,5 +16,32 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbAccept_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void BtSubmit_Click(object sender, EventArgs e)
+        {
+            int num1, num2, num3; 
+
+            num1 = int.Parse(tbAccept.Text);
+            num2 = int.Parse(textBox1.Text);
+            num3 = num1 + num2;
+
+            
+            MessageBox.Show($"The answer is {num3}");
+        }
+
+        private void lblNameprompt_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
